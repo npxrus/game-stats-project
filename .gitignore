@@ -1,0 +1,19 @@
+# Go
+/bin/
+/vendor/
+*.exe
+*.test
+*.out
+
+# TypeScript / Node
+/node_modules/
+/dist/
+/coverage/
+
+# IDE
+.vscode/
+.idea/
+
+# Secrets
+.env
+*.key

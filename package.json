@@ -1,0 +1,18 @@
+{
+  "name": "game-stats-cli",
+  "version": "0.1.0",
+  "description": "CLI для работы с игровой статистикой (TypeScript)",
+  "main": "dist/cli.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/cli.js",
+    "dev": "node cmd/cli/cli.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^26.1.2",
+    "typescript": "^7.0.2"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
